@@ -40,39 +40,11 @@ body{
     height: 210px;
 }
 
-.contenedor1{
-    width: 100%;
-    display: flex;
-
-}
-.contenedor1 img{
-    width: 100%;
-    height: 400px;
-
-}
 
 
-.contenedor2{
-    width: 100%;
-    display: flex;
-  
-}
 
-.contenedor2 img{
-    width: 100%;
-    height: 400px;
 
-}
 
-.contenedor3{
-    width: 100%;
-    display: flex;
-   
-}
-.contenedor3 img{
-   width: 100%;
-   height: 400px;
-}
 .card .contenido{
     padding: 15px;
     text-align: center;
