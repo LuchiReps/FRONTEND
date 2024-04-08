@@ -14,7 +14,7 @@ body{
 }
 
 /*---  ---*/
-.container{
+.contenedor{
     width: 100%;
     display: flex;
     max-width: 1100px;
@@ -28,4 +28,9 @@ body{
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
