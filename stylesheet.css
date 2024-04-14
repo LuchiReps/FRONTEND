@@ -7,8 +7,23 @@
 
 
 body {
-    background-color: #eaaefa;
+    background-color: #7a767e;
 }
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .josefin-slab-letter {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 45px;
+    font-style: normal;
+  }
+  
+
 
 .contenedor-cards {
     display: flex;
