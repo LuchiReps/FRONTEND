@@ -2,27 +2,40 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Gill Sans';
+    /*  font-family: 'Gill Sans';*/
 }
+
+header {
+    background-color: #fff;
+    margin: 12px 10px;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    border: solid 2px black;
+    font-family: "Josefin Slab", serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
 
 
 body {
     background-color: #7a767e;
 }
 
-.courgette-regular {
-    font-family: "Courgette", cursive;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .josefin-slab-letter {
-    font-family: "Josefin Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 45px;
-    font-style: normal;
-  }
-  
+.navegacion{
+   display: flex;
+    
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: #fff;  
+}
+
+
 
 
 .contenedor-cards {
@@ -34,12 +47,13 @@ body {
 
 .card {
     width: 325px;
-    background-color: palevioletred;
+    background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 20px;
     gap: 5px;
+  /*  border-radius: solid 3px black;*/
 }
 
 .card img {
@@ -58,12 +72,13 @@ body {
 
 }
 
-.card-content p{
+.card-content p {
     color: rgb(21, 19, 19);
     font-size: 15px;
-    line-height:1.3 ;
+    line-height: 1.3;
 }
-.card-content .btn{
+
+.card-content .btn {
     display: inline-block;
     padding: 8px 16px;
     background-color: #333;
@@ -71,4 +86,4 @@ body {
     border-radius: 4px;
     margin-top: 16px;
     color: #fff;
-} 
+}
