@@ -28,6 +28,7 @@ body {
 
 .navegacion {
     display: flex;
+    justify-content: space-between;
     background-color: #fff;
     width: 800px;
     color: green;
@@ -39,6 +40,7 @@ body {
 }
 
 .navegacion a {
+
     text-decoration: none;
     color: black;
     align-items: center;
@@ -48,6 +50,7 @@ body {
 .navegacion a:hover{
     background-color: black;
     color: #fff;
+
 }
 .navegacion li {
     list-style: none;
