@@ -17,6 +17,7 @@ header {
     font-family: "Josefin Slab", serif;
     font-style: italic;
     font-size: 14px;
+    height: 25px 30px;
 }
 
 
@@ -25,17 +26,37 @@ body {
     background-color: #7a767e;
 }
 
-.navegacion{
-   display: flex;
+.navegacion {
+    display: flex;
+    background-color: #fff;
+    width: 800px;
+    color: green;
+    border-radius: 4px;
+    border: black solid 3px;
+    padding: 5px 4px;
+    text-align: center;
+    margin: auto;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.navegacion a:hover{
+    background-color: black;
+    color: #fff;
+}
+.navegacion li {
+    list-style: none;
+}
+.navegacion ul li {
+    margin-left: 75px;
+    float: left;
     
 }
-
-.navegacion a{
-    text-decoration: none;
-    color: #fff;  
-}
-
-
 
 
 .contenedor-cards {
@@ -53,7 +74,7 @@ body {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 20px;
     gap: 5px;
-  /*  border-radius: solid 3px black;*/
+    /*  border-radius: solid 3px black;*/
 }
 
 .card img {
