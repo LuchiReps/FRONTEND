@@ -72,3 +72,14 @@ body {
     justify-content: space-evenly;
     overflow: auto;
 }
+
+
+/* FORMULARIO */
+
+form{
+    background-color: #fff;
+    text-align: center;
+    margin: 32px 76px;
+    padding: 76px 20px;
+    
+}
