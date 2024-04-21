@@ -76,10 +76,17 @@ body {
 
 /* FORMULARIO */
 
-form{
+form {
+    background-color: transparent;
+}
+
+.contenedor {
     background-color: #fff;
     text-align: center;
-    margin: 32px 76px;
-    padding: 76px 20px;
-    
+   
+
+}
+
+input {
+    margin: 10px;
 }
