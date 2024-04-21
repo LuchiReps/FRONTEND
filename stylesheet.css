@@ -22,7 +22,9 @@ header {
 }
 
 body {
-    background-color: #7a767e;
+    background-image: url(./img/Tribuna_uffizi.jpg);
+    background-size: cover;
+    image-rendering: crisp-edges;
 }
 
 .navegacion {
