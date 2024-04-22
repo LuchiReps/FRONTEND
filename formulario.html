@@ -20,73 +20,96 @@
 
 <body>
 
-    <header>
-        <h1> MUSEUM </h1>
-    </header>
-    <nav class="navegacion">
-        <ul>
-            <li>
-                <a href="./index.html" class="nav-link">Inicio</a>
-            </li>
+  <header>
+    <h1> MUSEUM </h1>
+  </header>
+  
+  <nav class="navegacion">
+    <ul>
+      <li>
+        <a href="./index.html" class="nav-link">Inicio</a>
+      </li>
 
-            <li>
-                <a href="#" class="nav-link">Galeria</a>
-            </li>
+      <li>
+        <a href="#" class="nav-link">Galeria</a>
+      </li>
 
-            <li>
-                <a href="#" class="nav-link">Esculturas</a>
-            </li>
+      <li>
+        <a href="#" class="nav-link">Esculturas</a>
+      </li>
 
-            <li>
-                <a href="#" class="nav-link">Astrologia</a>
-            </li>
+      <li>
+        <a href="#" class="nav-link">Astrologia</a>
+      </li>
 
-            <li>
-                <a href="#" class="nav-link">Historia</a>
-            </li>
+      <li>
+        <a href="#" class="nav-link">Historia</a>
+      </li>
 
-            <li>
-                <a href="./formulario.html" class="nav-link">Contacto</a>
-            </li>
+      <li>
+        <a href="./formulario.html" class="nav-link">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="contactForm">
+    <form action="" class="form" id="formulario">
+      <h1 class="title">Contacto</h1>
 
-        </ul>
-    </nav>
+      <div class="inputContainer">
+        <input type="email" class="input" id="email" required placeholder="Ingrese su Correo usuario@dominio.com">
+        <label for="" class="label">Email</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" itemid="nombre" placeholder="Ingrese su nombre">
+        <label for="" class="label">Nombre</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" id="apellido" placeholder="Ingrese su apellido">
+        <label for="" class="label">Apellido</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="tel" class="input" id="telefono" placeholder="Ingrese su teléfono, SÓLO NÚMEROS">
+        <label for="" class="label">Teléfono</label>
+      </div>
+
+      <div class="inputContainer">
+        <textarea class="mensaje" id="mensaje" minlength="10" maxlength="136" placeholder="Ingrese su mensaje"></textarea>
+        <label for="" class="label">Mensaje</label>
+      </div><br>
+
+      <input type="submit" class="submitBtn" value="Enviar">
+
+      <label for="reset"></label>
+      <button type="reset" class="submitBtn-reset">Reiniciar</button>
+    </form>
+  </div>
+
+  <!-- <script>
+    document.getElementById('formulario').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevenir el envío del formulario
     
-    <div class="signupFrm">
-		<form action="" class="form">
-		  <h1 class="title">Contacto</h1>
-	
-		  <div class="inputContainer">
-			<input type="email" class="input" autofocus required placeholder="Ingrese su Correo usuario@dominio.com">
-			<label for="" class="label">Email</label>
-		  </div>
-	
-		  <div class="inputContainer">
-			<input type="text" class="input" required placeholder="Ingrese su nombre">
-			<label for="" class="label">Nombre</label>
-		  </div>
-
-          <div class="inputContainer">
-			<input type="text" class="input" required placeholder="Ingrese su apellido">
-			<label for="" class="label">Apellido</label>
-		  </div>
-	
-		  <div class="inputContainer">
-			<input type="tel" class="input" required placeholder="Ingrese su teléfono, SÓLO NÚMEROS">
-			<label for="" class="label">Teléfono</label>
-		  </div>
-	
-		  <div class="inputContainer">
-			<textarea class="mensaje" required minlength="10" maxlength="136" placeholder="Ingrese su mensaje"></textarea>
-			<label for="" class="label">Mensaje</label>
-		  </div><br>
-	
-		  <input type="submit" class="submitBtn" value="Enviar">
-
-          <label for="reset"></label>
-          <button type="reset" class="submitBtn-reset">Reiniciar</button>
-		</form>
-	  </div>
+      // Obtener los valores de los campos
+      var email = document.getElementById('email').value;
+      var nombre = document.getElementById('nombre').value;
+      var apellido = document.getElementById('apellido').value;
+      var telefono = document.getElementById('telefono').value;
+      var mensaje = document.getElementById('mensaje').value;
+    
+      // Crear el mensaje con los valores obtenidos
+      var mensajeCompleto = "Email: " + email + "\n";
+      mensajeCompleto += "Nombre: " + nombre + "\n";
+      mensajeCompleto += "Apellido: " + apellido + "\n";
+      mensajeCompleto += "Teléfono: " + telefono + "\n";
+      mensajeCompleto += "Mensaje: " + mensaje;
+    
+      // Mostrar el mensaje en una ventana emergente
+      alert(mensajeCompleto);
+    });
+    </script> -->
 
 </body>
 
