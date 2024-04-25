@@ -164,6 +164,7 @@ box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
   .submitBtn:hover {
 	background-color: #9867C5;
 	transform: translateY(-2px);
+  
   }
 
 .mensaje {
