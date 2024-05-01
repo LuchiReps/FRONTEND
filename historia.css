@@ -37,29 +37,46 @@ body {
     padding: 15px;
 }
 
-    .navegacion a {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        transition: all 0.3s ease-in-out;
-    }
+.navegacion a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
 
-    .navegacion a:hover {
-        background-color: #9867C5;
-        color: #fff;
-        padding: 10px;
-    }
+.navegacion a:hover {
+    background-color: #9867C5;
+    color: #fff;
+    padding: 10px;
+}
 
-    .navegacion li {
-        display: inline;
-        text-align: center;
-        margin: 0 10px 0 0;
-    }
+.navegacion li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
 
-    .navegacion ul li {
+.navegacion ul li {
 
-        margin: 0 15px 0 15px;
-        padding: 3px;
-        justify-content: space-evenly;
-        overflow: auto;
-    }
+    margin: 0 15px 0 15px;
+    padding: 3px;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.contenedor1 {
+    background-color: #fff;
+    margin: 90px 185px;
+    padding: 20px 10px;
+border-radius: 4ch;
+
+}
+
+.contenedor1 h2 {
+    text-align: center;
+    font-family: 'Josefin Slab';
+}
+
+.parrafo h3{
+    font-family: 'Josefin Slab';
+}
