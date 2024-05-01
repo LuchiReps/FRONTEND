@@ -72,11 +72,15 @@ border-radius: 4ch;
 
 }
 
-.contenedor1 h2 {
+.contenedor1 h2, p{
     text-align: center;
     font-family: 'Josefin Slab';
 }
 
+.parrafo{
+    background-color: #fff;
+    
+}
 .parrafo h3{
     font-family: 'Josefin Slab';
 }
