@@ -69,20 +69,29 @@ body {
     margin: 90px 185px;
     padding: 20px 10px;
 border-radius: 4ch;
-
+/*position: fixed;*/
 }
 
-.contenedor1 h2, p{
+
+.contenedor1 h1, p{
     text-align: center;
     font-family: 'Josefin Slab';
+    
 }
+
 
 .parrafo{
     background-color: #fff;
-    
+    padding: 25px 20px;
+    height: 250px;
+    width: 831px;
+    margin: 50px 15px;
+    border-radius: 4ch;
+    font-size: 20px;
 }
-.parrafo h3{
+.parrafo h2{
     font-family: 'Josefin Slab';
+    text-align: center;
 }
 
 .parrafo p{
