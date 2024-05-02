@@ -87,13 +87,15 @@ p {
 }
 
 .contenedor2 {
-    margin: 7px 451px;
-    padding: 33px 150px;
     background-color: #fff;
+    margin: 90px 185px;
+    padding: 20px 10px;
     border-radius: 4ch;
-
-    position: fixed;
-    top: 150px;
+    
+        position: fixed;
+    /*left: 10px;*/
+    top: 1px;
+    
 }
 
 
@@ -102,9 +104,6 @@ p {
 
     text-align: center;
     font-family: 'Josefin Slab';
-    position: fixed;
-    /*left: 10px;*/
-    top: 1px;
 }
 
 .parrafo {
