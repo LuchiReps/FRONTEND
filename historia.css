@@ -21,9 +21,10 @@ header {
 }
 
 body {
-    background-image: url(../FRONTEND/img/Tribuna_uffizi.jpg);
+    background-image: url(./img/Tribuna_uffizi.jpg);
     background-size: cover;
 background-attachment: fixed;
+
 }
 
 .navegacion {
@@ -64,6 +65,10 @@ background-attachment: fixed;
     overflow: auto;
 }
 
+main{
+    position: relative;
+}
+
 .contenedor1 {
     text-align: center;
     background-color: #fff;
@@ -71,6 +76,8 @@ background-attachment: fixed;
     padding: 33px 150px;
     border-radius: 4ch;
     position: fixed;
+    top: 150px;
+
 }
 .contenedor1 h1,
 p {
@@ -84,7 +91,8 @@ p {
     margin: 90px 185px;
     padding: 20px 10px;
     border-radius: 4ch;
-
+    position: fixed;
+    top: 150px;
 }
 
 
