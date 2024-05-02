@@ -21,9 +21,9 @@ header {
 }
 
 body {
-  background-image: url(../FRONTEND/img/Tribuna_uffizi.jpg);
+  background-image: url(../img/Tribuna_uffizi.jpg);
   background-size: cover;
-
+  background-attachment: fixed; 
 }
 
 .navegacion {

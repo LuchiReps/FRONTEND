@@ -25,6 +25,11 @@ body {
     background-size: cover;
 background-attachment: fixed;
 
+
+    background-image: url(../img/Tribuna_uffizi.jpg);
+    background-size: cover;
+    background-attachment: fixed;   
+
 }
 
 .navegacion {
@@ -91,6 +96,7 @@ p {
     margin: 90px 185px;
     padding: 20px 10px;
     border-radius: 4ch;
+
     position: fixed;
     top: 150px;
 }
@@ -98,10 +104,11 @@ p {
 
 .contenedor2 h2,
 p {
+
     text-align: center;
     font-family: 'Josefin Slab';
-
 }
+
 .parrafo {
     background-color: #fff;
     padding: 25px 20px;
