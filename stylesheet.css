@@ -21,9 +21,10 @@ header {
 }
 
 body {
-    background-image: url(../FRONTEND/img/Tribuna_uffizi.jpg);
+    background-image: url(../img/Tribuna_uffizi.jpg);
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .navegacion {
@@ -63,6 +64,12 @@ body {
         justify-content: space-evenly;
         overflow: auto;
     }
+
+main {
+    position: fixed;
+    
+}
+
 
 .contenedor-cards {
     display: flex;
