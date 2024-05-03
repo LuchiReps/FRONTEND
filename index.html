@@ -5,91 +5,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="shortcut icon" href="img/codoacodo.png" type="image/x-icon">
+    <title>Museum - Frontend - Codo a Codo</title>
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/script.js"></script>
+
+    <!-- https://fontawesome.com/search?o=r&m=free -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <title>Frontend</title>
 </head>
 
 <body>
 
     <header>
-      <h1> MUSEUM </h1>
+        <img id="logo-pagina" src="img/codoacodo.png" width="100" alt="Logo de la pagina">
+        <h1> MUSEUM </h1>
     </header>
     <nav class="navegacion">
         <ul>
             <li>
                 <a href="./index.html" class="nav-link">Inicio</a>
             </li>
-
+    
             <li>
-                <a href="#"class="nav-link">Galeria</a>
+                <a href="#" class="nav-link">Galeria</a>
             </li>
-
+    
             <li>
-                <a href="#"class="nav-link">Mitología</a>
+                <a href="#" class="nav-link">Mitología</a>
             </li>
-
+    
             <li>
-                <a href="./historia.html"class="nav-link">Historia</a>
+                <a href="./historia.html" class="nav-link">Historia</a>
             </li>
-
+    
             <li>
-                <a href="./formulario.html"class="nav-link">Contacto</a>
+                <a href="./formulario.html" class="nav-link">Contacto</a>
             </li>
-
         </ul>
     </nav>
 
-    <main>
-        <div class="contenedor-cards">
-            <div class="card">
-                <img src="img/foto2.jpg" alt="">
-                <div class="card-content">
-                    <h2> Cards </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
-                        earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
-                        voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
-                        quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
-                        perferendis fuga voluptatum quod?
-                    </p>
-                    <a href="" class="btn"> Read more</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/foto6.jpg" alt="">
-                <div class="card-content">
-                    <h2> Cards </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
-                        earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
-                        voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
-                        quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
-                        perferendis fuga voluptatum quod?
-                    </p>
-                    <a href="" class="btn"> Read more</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/foto2.jpg" alt="">
-                <div class="card-content">
-                    <h2> Cards </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
-                        earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
-                        voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
-                        quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
-                        perferendis fuga voluptatum quod?
+    <div id="progressBar"></div>
+
+    <div class="contenedor-cards">
+        <div class="card">
+            <img src="img/foto2.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
                 </p>
-                    <a href="" class="btn"> Read more</a>
-                </div>
+                <a href="" class="btn"> Read more</a>
             </div>
         </div>
-    </main>
+        <div class="card">
+            <img src="img/foto6.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
+                </p>
+                <a href="" class="btn"> Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/foto2.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
+                </p>
+                <a href="" class="btn"> Read more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/foto2.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
+                </p>
+                <a href="" class="btn"> Read more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/foto2.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
+                </p>
+                <a href="" class="btn"> Read more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/foto2.jpg" alt="">
+            <div class="card-content">
+                <h2> Cards </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio mollitia totam. Accusamus
+                    earum amet velit, atque quam neque numquam impedit corporis dolores aut officia, debitis sint quae
+                    voluptates consequunturt aperiam distinctio quibusdam blanditiis ut optio dignissimos tempore
+                    quaerat, voluptatem iste. Quod dolor sint beatae exercitationem quia! Animi omnis maiores
+                    perferendis fuga voluptatum quod?
+                </p>
+                <a href="" class="btn"> Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+           <div class="row">
+              <div class="footer-col">
+                 <h4>El Grupo</h4>
+                 <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>get help</h4>
+                 <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>online shop</h4>
+                 <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>Accesos al Código</h4>
+                 <div class="social-links">
+                    <a href="https://github.com/LuchiReps/FRONTEND" target="_blank"><i class="fa-brands fa-github  fa-xl"></i></a>
+                    <a href="https://front-end-museum.netlify.app/" target="_blank"><i class="fa-solid fa-cubes fa-xl"></i></a>
+                    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffront-end-museum.netlify.app" target="_blank"><i class="fa-regular fa-file-code fa-xl"></i></a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
 </body>
 
 </html>
