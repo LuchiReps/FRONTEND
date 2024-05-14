@@ -6,10 +6,10 @@
 
 header {
     background-color: #fff;
-    margin: 12px 10px;
+    margin: 5px 5px;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
@@ -24,7 +24,7 @@ header {
 body {
     background-image: url(../img/Tribuna_uffizi.jpg);
     background-size: cover;
-    image-rendering: crisp-edges;
+    background-attachment: fixed;
 }
 
 .navegacion {
@@ -34,8 +34,8 @@ body {
     border: black solid 2px;
     border-radius: 4px;
     background-color: #fff;
-    margin: 10px 20px;
-    padding: 15px;
+    margin: 5px 20px;
+    padding: 10px;
 }
 
     .navegacion a {

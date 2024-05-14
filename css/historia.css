@@ -1,0 +1,56 @@
+.content {
+    padding-top: 50px; /* Ajusta el padding superior para evitar que el contenido se superponga con la barra de navegación */
+}
+
+.contenedor1 {
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 4ch;
+    border: solid 3px;
+    border-color:black;
+    position: fixed;
+    top: 150px;
+    right: 1%;
+}
+
+.contenedor1 h1, p {
+    text-align: center;
+    font-family: 'Josefin Slab';
+
+}
+
+.contenedor2 {
+    background-color: #fff;
+    margin: 90px 185px;
+    padding: 20px 10px;
+    border-radius: 4ch;
+    left: 10px;
+    top: 1px;
+
+}
+
+.contenedor2 h2, p {
+    text-align: center;
+    font-family: 'Josefin Slab';
+}
+
+.parrafo {
+    background-color: #fff;
+    padding: 25px 20px;
+    height: 250px;
+    width: 831px;
+    margin: 250px 15px;
+    border-radius: 4ch;
+    font-size: 20px;
+}
+
+.parrafo h2 {
+    font-family: 'Josefin Slab';
+    text-align: center;
+    margin: 9px;
+}
+
+.parrafo p {
+    font-family: 'Gill Sans';
+}
