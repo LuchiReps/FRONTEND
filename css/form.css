@@ -1,3 +1,4 @@
+<<<<<<< HEAD:form.css
 * {
   margin: 0px;
   padding: 0px;
@@ -73,6 +74,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+=======
+/* FORMULARIO */
+
+.contactForm {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	height: 100vh;
+>>>>>>> e7d4f94b29ec4deb337df6ceb8044c8e5ebee374:css/form.css
 }
 
 .form {
@@ -149,6 +159,7 @@ body {
 }
 
 .submitBtn {
+<<<<<<< HEAD:form.css
   display: block;
   margin-left: auto;
   padding: 15px 30px;
@@ -167,6 +178,42 @@ body {
   transform: translateY(-2px);
 
 }
+=======
+	margin-left: auto;
+	padding: 15px 30px;
+	border: none;
+	background-color: purple;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
+  
+  .submitBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
+
+.submitBtn-reset {
+  margin-left: 20px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(246, 126, 29);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+  .submitBtn-reset:hover {
+    background-color: #d35722;
+    transform: translateY(-2px);
+  }
+>>>>>>> e7d4f94b29ec4deb337df6ceb8044c8e5ebee374:css/form.css
 
 .mensaje {
   position: absolute;
@@ -184,6 +231,7 @@ body {
   resize: none;
 }
 
+<<<<<<< HEAD:form.css
 .mensaje:focus+.label {
   top: -7px;
   left: 3px;
@@ -204,3 +252,25 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+=======
+  .mensaje:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+  }
+
+  .mensaje:focus {
+    border: 2px solid purple;
+  }
+
+  .mensaje:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+>>>>>>> e7d4f94b29ec4deb337df6ceb8044c8e5ebee374:css/form.css

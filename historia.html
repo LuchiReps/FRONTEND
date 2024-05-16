@@ -5,145 +5,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="historia.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="shortcut icon" href="img/codoacodo.png" type="image/x-icon">
+    <title>Museum - Frontend - Codo a Codo</title>
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/historia.css">
+    <script src="js/script.js"></script>
+
+    <!-- https://fontawesome.com/search?o=r&m=free -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
-    <title>Frontend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+    <script>
+        window.onscroll = function() {
+            var y = window.scrollY;
+
+            var tema2 = document.getElementById('alta').getBoundingClientRect();
+
+            console.log(tema2.top);
+
+            var parrafo = document.getElementById('baja');
+
+            if(tema2.top < 290){
+                parrafo.innerHTML = "TEMA 2";   
+            }
+            
+            if(tema2.top > 450){
+                parrafo.innerHTML = "TEMA 1";   
+            }
+        };
+    </script>
+
 </head>
 
 <body>
 
     <header>
+        <img id="logo-pagina" src="img/codoacodo.png" width="100" alt="Logo de la pagina">
         <h1> MUSEUM </h1>
     </header>
+    
     <nav class="navegacion">
         <ul>
             <li>
                 <a href="./index.html" class="nav-link">Inicio</a>
             </li>
-
+    
             <li>
                 <a href="#" class="nav-link">Galeria</a>
             </li>
-
-
-
+    
             <li>
                 <a href="#" class="nav-link">Mitología</a>
             </li>
-
+    
             <li>
                 <a href="./historia.html" class="nav-link">Historia</a>
             </li>
-
+    
             <li>
                 <a href="./formulario.html" class="nav-link">Contacto</a>
             </li>
-
         </ul>
     </nav>
 
-
+    <div id="progressBar"></div>
     
-        <main>
-            <div class="contenedor1">
-                <h1> Baja Edad Media </h1>
-                <br>
-                <p> Siglo V al XI</p>
-            </div>
-            <div class="parrafo">
-                <h2>Invasiones Bárbaras</h2>
-                <p> Tras la caida del Imperio Romano de Occidente en el Siglo V.Italia fue invadida por diversos pueblos
-                    germánicos. Los visigodos, liderados por Alarico, saquearon Roma en el año 410 d.C. </p>
-                <br>
-                <p>Posteriormente, los ostrogodos, bajo el liderazgo de Teodorico el Grande, establecieron el Reino
-                    Ostrogodo de
-                    Italia en el año 493 d.C.</p>
-                <br>
-                <p>Los lombardos también invadieron Italia en el siglo VI, estableciendo el Reino Lombardo en el norte.
-                </p>
-                <br>
-            </div>
+    <main>
+    <div class="content">
+        <div class="contenedor1" id="baja">
+            <h1> Baja Edad Media </h1>
+            <p> Siglo V al XI</p>
+        </div>
+        <div class="parrafo">
+            <h2>Invasiones Bárbaras</h2>
+            <p> Tras la caida del Imperio Romano de Occidente en el Siglo V.Italia fue invadida por diversos pueblos
+                germánicos. Los visigodos, liderados por Alarico, saquearon Roma en el año 410 d.C. </p>
+            <br>
+            <p>Posteriormente, los ostrogodos, bajo el liderazgo de Teodorico el Grande, establecieron el Reino
+                Ostrogodo de
+                Italia en el año 493 d.C.</p>
+            <br>
+            <p>Los lombardos también invadieron Italia en el siglo VI, estableciendo el Reino Lombardo en el norte.
+            </p>
+            <br>
+        </div>
 
+        <div class="parrafo">
+            <h2>Fragmentación Política</h2>
+            <p> Italia se convirtió en una tierra dividida entre varios reinos y ducados, cada uno con su propio
+                gobierno y
+                leyes. </p>
+            <br>
+            <p>No había una autoridad central unificada, lo que llevó a un período de inestabilidad política y
+                conflictos
+                constantes entre los diversos grupos que buscaban controlar la península italiana.</p>
+        </div>
 
+        <div class="parrafo">
+            <h2>Poder Papal</h2>
+            <p> Durante la Baja Edad Media, el papado emergió como una institución poderosa en Italia.</p>
+            <br>
+            <p>Los papas no solo tenían autoridad religiosa, sino que también desempeñaban un papel activo en la
+                política de
+                la región, a menudo actuando como árbitros en disputas entre los diferentes gobernantes locales.</p>
+        </div>
 
+        <div class="parrafo">
+            <h2>Crecimiento del Feudalismo</h2>
+            <p> Con la desintegración del poder centralizado del Imperio Romano, surgió el sistema feudal en Italia.
+            </p>
+            <br>
+            <p>Los señores locales controlaban grandes extensiones de tierra y ejercían autoridad sobre los
+                campesinos que
+                vivían en ellas. </p>
+            <br>
+            <p>Esto llevó a una sociedad jerárquica donde el poder y la riqueza estaban concentrados en las manos de
+                unos pocos.</p>
+        </div>
 
-            <div class="parrafo">
-                <h2>Fragmentación Política</h2>
-                <p> Italia se convirtió en una tierra dividida entre varios reinos y ducados, cada uno con su propio
-                    gobierno y
-                    leyes. </p>
-                <br>
-                <p>No había una autoridad central unificada, lo que llevó a un período de inestabilidad política y
-                    conflictos
-                    constantes entre los diversos grupos que buscaban controlar la península italiana.</p>
-            </div>
-
-            <div class="parrafo">
-                <h2>Poder Papal</h2>
-                <p> Durante la Baja Edad Media, el papado emergió como una institución poderosa en Italia.</p>
-                <br>
-                <p>Los papas no solo tenían autoridad religiosa, sino que también desempeñaban un papel activo en la
-                    política de
-                    la región, a menudo actuando como árbitros en disputas entre los diferentes gobernantes locales.</p>
-            </div>
-
-            <div class="parrafo">
-                <h2>Crecimiento del Feudalismo</h2>
-                <p> Con la desintegración del poder centralizado del Imperio Romano, surgió el sistema feudal en Italia.
-                </p>
-                <br>
-                <p>Los señores locales controlaban grandes extensiones de tierra y ejercían autoridad sobre los
-                    campesinos que
-                    vivían en ellas. </p>
-                <br>
-                <p>Esto llevó a una sociedad jerárquica donde el poder y la riqueza estaban concentrados en las manos de
-                    unos pocos.</p>
-            </div>
-            <center>
-                <div class="contenedor2">
-                    <h2> Alta Edad Media </h2>
-                    <br>
-                    <p> siglos XI al XIV</p>
-                    <br>
+        <div class="parrafo" id="alta">
+            <h2>Renacimiento Comercial</h2>
+            <p>  A partir del siglo XI, Italia experimentó un renacimiento económico y comercial
+            </p>
+            <br>
+            <p>Las ciudades costeras como Venecia, Génova y Pisa se convirtieron en importantes centros de comercio marítimo, estableciendo rutas comerciales con el resto de Europa y el mundo islámico. </p>
+            <br>
+            <p>Además, ciudades del interior como Florencia y Milán prosperaron gracias al comercio terrestre y la manufactura.</p>
+        </div>
+        <div class="parrafo">
+            <h2>Auge de las Ciudades-Estado</h2>
+            <p> Durante la Alta Edad Media, las ciudades italianas se convirtieron en centros de poder político y económico.
+            </p>
+            <br>
+            <p>Cada ciudad-estado tenía su propio gobierno, a menudo dominado por una clase mercantil o aristocrática, y competían entre sí por la hegemonía regional. </p>
+            <br>
+            <p>Algunas de las ciudades-estado más importantes incluían Venecia, Florencia, Milán, Génova y Nápoles</p>
+        </div>  <div class="parrafo">
+            <h2>Conflictos Políticos y Guerras</h2>
+            <p> A pesar del florecimiento cultural y económico, la Alta Edad Media también fue un período marcado por conflictos políticos y guerras entre las ciudades-estado italianas. 
+            </p>
+            <br>
+            <p> Las rivalidades territoriales y comerciales a menudo desencadenaban enfrentamientos armados, como las Guerras Lombardas entre Milán y el Sacro Imperio Romano Germánico, así como las Guerras Italianas, que involucraron a potencias extranjeras como Francia y España en la lucha por el control de Italia. </p>
+            <br>
+            
+        </div> 
+    </div>                                 
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>El Grupo</h4>
+                    <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                    </ul>
                 </div>
-
-            </center>
-
-            <div class="parrafo">
-                <h2>Renacimiento Comercial</h2>
-                <p>  A partir del siglo XI, Italia experimentó un renacimiento económico y comercial
-                </p>
-                <br>
-                <p>Las ciudades costeras como Venecia, Génova y Pisa se convirtieron en importantes centros de comercio marítimo, estableciendo rutas comerciales con el resto de Europa y el mundo islámico. </p>
-                <br>
-                <p>Además, ciudades del interior como Florencia y Milán prosperaron gracias al comercio terrestre y la manufactura.</p>
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="#">Mitología</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="formulario.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Accesos al Código</h4>
+                    <div class="social-links">
+                    <a href="https://github.com/LuchiReps/FRONTEND" target="_blank"><i class="fa-brands fa-github  fa-xl"></i></a>
+                    <a href="https://front-end-museum.netlify.app/" target="_blank"><i class="fa-solid fa-cubes fa-xl"></i></a>
+                    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffront-end-museum.netlify.app" target="_blank"><i class="fa-regular fa-file-code fa-xl"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="parrafo">
-                <h2>Auge de las Ciudades-Estado</h2>
-                <p> Durante la Alta Edad Media, las ciudades italianas se convirtieron en centros de poder político y económico.
-                </p>
-                <br>
-                <p>Cada ciudad-estado tenía su propio gobierno, a menudo dominado por una clase mercantil o aristocrática, y competían entre sí por la hegemonía regional. </p>
-                <br>
-                <p>Algunas de las ciudades-estado más importantes incluían Venecia, Florencia, Milán, Génova y Nápoles</p>
-            </div>  <div class="parrafo">
-                <h2>Conflictos Políticos y Guerras</h2>
-                <p> A pesar del florecimiento cultural y económico, la Alta Edad Media también fue un período marcado por conflictos políticos y guerras entre las ciudades-estado italianas. 
-                </p>
-                <br>
-                <p> Las rivalidades territoriales y comerciales a menudo desencadenaban enfrentamientos armados, como las Guerras Lombardas entre Milán y el Sacro Imperio Romano Germánico, así como las Guerras Italianas, que involucraron a potencias extranjeras como Francia y España en la lucha por el control de Italia. </p>
-                <br>
-                
-            </div>                                  
-        </main>
+        </div>
+    </footer>
 
 </body>
 
